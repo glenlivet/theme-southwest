@@ -29,7 +29,7 @@
 	font-size: 0.8em;
 }
 .ui-widget-content {
-	border: 1px solid #aaaaaa;
+	border: 1px solid #ccc;
 	background: #ffffff url("#{resource['primefaces-southwest:images/ui-bg_flat_75_ffffff_40x100.png']}") 50% 50% repeat-x;
 	color: #222222;
 }
@@ -37,7 +37,7 @@
 	color: #222222;
 }
 .ui-widget-header {
-	border: 1px solid #aaaaaa;
+	border: 1px solid #ccc;
 	background: #ffffff url("#{resource['primefaces-southwest:images/ui-bg_flat_75_ffffff_40x100.png']}") 50% 50% repeat-x;
 	color: #222222;
 	font-weight: bold;
@@ -52,9 +52,9 @@
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #d3d3d3;
-	background: #eeeeee url("#{resource['primefaces-southwest:images/ui-bg_flat_75_eeeeee_40x100.png']}") 50% 50% repeat-x;
+	background: #fafafa;
 	font-weight: normal;
-	color: #555555;
+	color: #000;
 }
 .ui-state-default a,
 .ui-state-default a:link,
@@ -105,7 +105,8 @@
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #fcefa1;
-	background: #fbf9ee url("#{resource['primefaces-southwest:images/ui-bg_flat_55_fbf9ee_40x100.png']}") 50% 50% repeat-x;
+	background: #aaaaff;
+/* 	background: #fbf9ee url("#{resource['primefaces-southwest:images/ui-bg_flat_55_fbf9ee_40x100.png']}") 50% 50% repeat-x; */
 	color: #363636;
 }
 .ui-state-highlight a,
@@ -147,7 +148,7 @@
 .ui-widget-header .ui-state-disabled {
 	opacity: .35;
 	filter:Alpha(Opacity=35); /* support: IE8 */
-	background-image: none;
+/* 	background-image: none; */
 }
 .ui-state-disabled .ui-icon {
 	filter:Alpha(Opacity=35); /* support: IE8 - See #6059 */
